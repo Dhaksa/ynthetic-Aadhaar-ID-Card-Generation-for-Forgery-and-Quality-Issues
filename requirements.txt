@@ -1,0 +1,13 @@
+torch
+torchvision
+opencv-python
+Pillow
+easyocr
+diffusers
+transformers
+accelerate
+gradio
+numpy
+matplotlib
+qwen_vl_utils
+langchain_ollama

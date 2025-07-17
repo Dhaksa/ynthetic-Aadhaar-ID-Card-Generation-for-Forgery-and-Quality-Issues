@@ -32,21 +32,21 @@ HYPERGEN is a powerful tool designed to generate synthetic Aadhaar cards with co
 hyperverge/
 │
 ├── src/
-│   ├── cvprocessor.py               # Main Aadhaar generation/editing script (OpenCV-based)
-│   ├── partialgenprocessor.py      # Partial redaction & blur handling
-│   ├── occlude\_render.py           # Blender script for 3D object rendering over fields
-│   ├── aiprocessor.py              # AI-based generation stub (optional)
-│   ├── inpaintprocessor.py         # Flux-based inpainting UI handler
+│ ├── cvprocessor.py # Main Aadhaar generation/editing script (OpenCV-based)
+│ ├── partialgenprocessor.py # Partial redaction & blur handling
+│ ├── occlude_render.py # Blender script for 3D object rendering over fields
+│ ├── aiprocessor.py # AI-based generation stub (optional)
+│ ├── inpaintprocessor.py # Flux-based inpainting UI handler
 │
 ├── 3d-models/
-│   ├── coin/                       # FBX model + textures
-│   ├── pen/
-│   └── pencil/
+│ ├── coin/ # FBX model + textures
+│ ├── pen/
+│ └── pencil/
 │
-├── template.png                    # Aadhaar template image
-├── README.md                       # Project documentation
-├── requirements.txt                # Python dependencies
-└── main.py                          # Main Gradio UI file
+├── template.png # Aadhaar template image
+├── README.md # Project documentation
+├── requirements.txt # Python dependencies
+└── app.py # Main Gradio UI file
 
 ````
 
